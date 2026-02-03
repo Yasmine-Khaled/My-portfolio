@@ -39,22 +39,22 @@ const skills = {
 
 const projects = [
   {
-    name: "911 Digital – Website",
-    description: "Laravel & PHP backend with RESTful APIs, role-based authentication, and database design.",
+    name: "911 - Website | 911 Digital",
+    description: "Built and maintained the Laravel/PHP backend, designed the database, integrated RESTful APIs, and implemented role-based authentication in close collaboration with the frontend team.",
     stack: "Laravel, PHP, MySQL",
     link: "https://911digital.co/en",
     label: "Live Site"
   },
   {
-    name: "Nature Way – Website (Freelance)",
-    description: "Laravel backend with API integrations, authentication, and role management.",
+    name: "Nature Way - Website | Freelance",
+    description: "Developed a Laravel backend with optimized database structures, API integrations, and secure authentication/authorization while partnering with frontend developers for a smooth UX.",
     stack: "Laravel, PHP, API Integration",
     link: "https://natureway.world/en",
     label: "Live Site"
   },
   {
     name: "Company Database Management System",
-    description: "Admin, employees, and departments modules for a full internal DBMS workflow.",
+    description: "Designed a web-based DBMS with Admin, Employee, and Department modules, enabling secure data entry, updates, and retrieval to streamline operations.",
     stack: "HTML, CSS, JavaScript, PHP, MySQL",
     link: "https://github.com/Yasmine-Khaled/Company-DBMS",
     label: "GitHub"
@@ -385,7 +385,7 @@ export default function HomePage() {
                   </p>
                   <p className="flex flex-wrap gap-3">
                     <a
-                      href="https://linkedin.com/in/yasmine-khaled"
+                      href="https://www.linkedin.com/in/yasmine-khaled-74418337b/"
                       target="_blank"
                       rel="noreferrer"
                       className="inline-flex items-center rounded-full border border-border px-4 py-2 text-xs font-semibold text-muted transition hover:border-accent hover:text-fg"
@@ -422,3 +422,4 @@ export default function HomePage() {
     </main>
   );
 }
+

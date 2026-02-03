@@ -45,13 +45,17 @@ export function ContactForm() {
         body: JSON.stringify(form)
       });
 
-      if (!response.ok) throw new Error("Failed to submit");
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || "Failed to submit");
+      }
 
       setStatus("success");
       setForm(initialState);
     } catch (err) {
       setStatus("error");
-      setError("Something went wrong. Please try again.");
+      setError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
     }
   };
 
